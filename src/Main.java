@@ -30,7 +30,7 @@ public class Main {
 
                 writer.write("Q" + i + ": " + num1 + " + " + num2 + " = " + userAnswer);
                 writer.write(" | Correct answer: " + correctAnswer);
-                writer.write(" | " + (isCorrect ? "Correct" : "Incorrect") + "\n");
+                writer.write(" | " + (isCorrect ? "Correct" : "Incorrect") + "");
             }
 
             writer.close();
